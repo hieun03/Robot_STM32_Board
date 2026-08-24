@@ -1,0 +1,13 @@
+# Altium temporary and cache files
+*.History*
+History/
+__Previews/
+*.LOG
+*.html
+*.Txt
+*.zip
+*.bak
+*.~*
+
+# Local workspace preferences
+*.WorkspaceStorage/
