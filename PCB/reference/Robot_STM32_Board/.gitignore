@@ -1,0 +1,48 @@
+# User preferences
+*.DsnWrk
+*.Dsk
+
+# Project cache and local settings
+__Previews/
+Project Logs for *
+History/
+*.local
+
+# Generated outputs
+PDF/
+Outputs/
+OutJob Outputs/
+CAMtastic/
+Fabrication/
+Assembly/
+Project Outputs for *
+
+# Compilation/cache files
+*.REP
+*.RPT
+*.LOG
+*.LOGTXT
+*.WRL
+*.PcbDocPreview
+
+# Temporary files
+*.bak
+*.Bak
+*.tmp
+*.~*
+
+# Autosave
+*.Autosave
+
+# Generated manufacturing files
+*.GB*
+*.GBL
+*.GBS
+*.GBO
+*.GBL
+*.GTL
+*.GTS
+*.GTO
+*.TXT
+*.DRL
+*.NC
