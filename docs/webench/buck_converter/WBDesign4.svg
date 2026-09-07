@@ -237,9 +237,9 @@
   <text for="Rfbb" x="1115.0" y="380.0" style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;">Rfbb</text>
   <text for="Rfbb" x="1115.0" y="390.0" style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;">1.96kOhm</text>
   <use id="GND" class="other" xlink:href="#WB_GND" x="685.0" y="430.0" />
-  <use id="RenB" class="comp" xlink:href="#WB_RESISTOR" x="290.0" y="280.0" transform="rotate(-90, 290.0, 280.0)" partNo="RC0201FR-0728K7L" thermalId="0201" resistance="28.7kOhm" manufacturer="Yageo" />
+  <use id="RenB" class="comp" xlink:href="#WB_RESISTOR" x="290.0" y="280.0" transform="rotate(-90, 290.0, 280.0)" partNo="CRCW040231K6FKED" thermalId="0402" resistance="31.6kOhm" manufacturer="Vishay-Dale" />
   <text for="RenB" x="305.0" y="280.0" style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;">RenB</text>
-  <text for="RenB" x="305.0" y="290.0" style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;">28.7kOhm</text>
+  <text for="RenB" x="305.0" y="290.0" style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;">31.6kOhm</text>
   <use id="RenT" class="comp" xlink:href="#WB_RESISTOR" x="290.0" y="180.0" transform="rotate(-90, 290.0, 180.0)" partNo="CRCW0402169KFKED" thermalId="0402" resistance="169kOhm" manufacturer="Vishay-Dale" />
   <text for="RenT" x="305.0" y="180.0" style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;">RenT</text>
   <text for="RenT" x="305.0" y="190.0" style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;">169kOhm</text>
@@ -269,13 +269,13 @@
   <text for="D1" x="975.0" y="245.0" style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;">D1</text>
   <text for="D1" x="975.0" y="255.0" style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;">550mV</text>
   <text for="D1" x="975.0" y="265.0" style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;">5A</text>
-  <use id="Ccomp" class="comp" xlink:href="#WB_CAPACITOR" x="455.0" y="375.0" transform="rotate(-90, 455.0, 375.0)" cap="1.2nF" partNo="C0805C122J5GACTU" thermalId="0805" esr="0Ohm" manufacturer="Kemet" />
+  <use id="Ccomp" class="comp" xlink:href="#WB_CAPACITOR" x="455.0" y="375.0" transform="rotate(-90, 455.0, 375.0)" cap="1nF" partNo="GRM1555C1H102JA01J" thermalId="0402" esr="0Ohm" manufacturer="MuRata" />
   <text for="Ccomp" x="470.0" y="375.0" style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;">Ccomp</text>
-  <text for="Ccomp" x="470.0" y="385.0" style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;">1.2nF</text>
+  <text for="Ccomp" x="470.0" y="385.0" style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;">1nF</text>
   <text for="Ccomp" x="470.0" y="395.0" style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;">0Ohm</text>
-  <use id="Rcomp" class="comp" xlink:href="#WB_RESISTOR" x="455.0" y="310.0" transform="rotate(-90, 455.0, 310.0)" partNo="CRCW040221K5FKED" thermalId="0402" resistance="21.5kOhm" manufacturer="Vishay-Dale" />
+  <use id="Rcomp" class="comp" xlink:href="#WB_RESISTOR" x="455.0" y="310.0" transform="rotate(-90, 455.0, 310.0)" partNo="CRCW040226K1FKED" thermalId="0402" resistance="26.1kOhm" manufacturer="Vishay-Dale" />
   <text for="Rcomp" x="470.0" y="310.0" style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#115566;fill:#115566;">Rcomp</text>
-  <text for="Rcomp" x="470.0" y="320.0" style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;">21.5kOhm</text>
+  <text for="Rcomp" x="470.0" y="320.0" style="font-family:arial;font-size:10px;stroke-width:0.1;stroke:#CC0000;fill:#CC0000;">26.1kOhm</text>
   <use id="Iout" class="other" xlink:href="#WB_CURRENT_LOAD" x="1280.0" y="340.0" transform="rotate(-270, 1280.0, 340.0)" />
   <text for="Iout" x="1295.0" y="340.0" style="font-family:arial;font-size:13px;stroke-width:0.5;stroke:#CC0000;fill:#CC0000;">Iout</text>
   <use id="Vin" class="other" xlink:href="#WB_BATTERY" x="100.0" y="280.0" transform="rotate(-270, 100.0, 280.0)" />
@@ -311,8 +311,11 @@
   <line x1="535.0" y1="340.0" x2="535.0" y2="300.0" stroke="#000000" stroke-width="2" fill="none" />
   <line x1="1190.0" y1="290.0" x2="1190.0" y2="200.0" stroke="#000000" stroke-width="2" fill="none" />
   <line x1="755.0" y1="200.0" x2="1025.0" y2="200.0" stroke="#000000" stroke-width="2" fill="none" />
-  <line x1="1085.0" y1="200.0" x2="1280.0" y2="200.0" stroke="#000000" stroke-width="2" fill="none" />
   <line x1="100.0" y1="140.0" x2="595.0" y2="140.0" stroke="#000000" stroke-width="2" fill="none" />
+  <line x1="1190.0" y1="275.0" x2="1190.0" y2="245.0" stroke="#000000" stroke-width="2" fill="none" />
+  <line x1="1085.0" y1="200.0" x2="1280.0" y2="200.0" stroke="#000000" stroke-width="2" fill="none" />
+  <line x1="980.0" y1="200.0" x2="1010.0" y2="200.0" stroke="#000000" stroke-width="2" fill="none" />
+  <line x1="125.0" y1="140.0" x2="155.0" y2="140.0" stroke="#000000" stroke-width="2" fill="none" />
   <line x1="100.0" y1="420.0" x2="1280.0" y2="420.0" stroke="#000000" stroke-width="2" fill="none" />
   <line x1="1280.0" y1="310.0" x2="1280.0" y2="200.0" stroke="#000000" stroke-width="2" fill="none" />
   <line x1="1280.0" y1="420.0" x2="1280.0" y2="370.0" stroke="#000000" stroke-width="2" fill="none" />
@@ -322,10 +325,10 @@
   <circle cx="455.0" cy="270.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
   <circle cx="1100.0" cy="330.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
   <circle cx="960.0" cy="200.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
-  <circle cx="1100.0" cy="200.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
-  <circle cx="1190.0" cy="200.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
   <circle cx="290.0" cy="140.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
   <circle cx="195.0" cy="140.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
+  <circle cx="1100.0" cy="200.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
+  <circle cx="1190.0" cy="200.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
   <circle cx="290.0" cy="420.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
   <circle cx="355.0" cy="420.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
   <circle cx="1100.0" cy="420.0" r="5" stroke="#000000" stroke-width="0" fill="#000000" />
